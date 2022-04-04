@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Kompas/AndroidStudioProjects/4praktinis/app/src/main/res/layout/activity_main.xml" value="0.19850187265917604" />
+        <entry key="..\:/Users/Kompas/AndroidStudioProjects/4praktinis/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Kompas/AndroidStudioProjects/4praktinis/app/src/main/res/layout/addnoteactivity.xml" value="0.1" />
         <entry key="..\:/Users/Kompas/AndroidStudioProjects/4praktinis/app/src/main/res/layout/deletenoteactivity.xml" value="0.1" />
+        <entry key="..\:/Users/Kompas/AndroidStudioProjects/4praktinis/app/src/main/res/layout/list_black.xml" value="0.25" />
         <entry key="..\:/Users/Kompas/AndroidStudioProjects/4praktinis/app/src/main/res/menu/addnotesactivity.xml" value="0.1" />
         <entry key="..\:/Users/Kompas/AndroidStudioProjects/4praktinis/app/src/main/res/menu/menu.xml" value="0.1" />
       </map>

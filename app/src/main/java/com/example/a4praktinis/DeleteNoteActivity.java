@@ -1,6 +1,8 @@
 package com.example.a4praktinis;
 
+import android.content.LocusId;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
@@ -31,6 +33,7 @@ public class DeleteNoteActivity extends AppCompatActivity {
         ArrayList<String> List_Notes = new ArrayList<String>(sp.getStringSet("notes", new HashSet<String>()));
         ArrayAdapter listAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, List_Notes);
         DeleteSpinner.setAdapter(listAdapter);
+       
     }
 
     public void onDeleteNoteClick(View view) {

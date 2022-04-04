@@ -2,7 +2,6 @@ package com.example.a4praktinis;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.Menu;
@@ -12,7 +11,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private ListView lstnotes;
@@ -22,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
 
         this.lstnotes = findViewById(R.id.lstnotes);
@@ -29,8 +28,7 @@ public class MainActivity extends AppCompatActivity {
         this.notesList = new ArrayList<String>(sp.getStringSet("notes", new HashSet<String>()));
         this.listAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, notesList);
         this.lstnotes.setAdapter(this.listAdapter);
-
-    }
+    };
 
     @Override
     protected void onRestart() {
